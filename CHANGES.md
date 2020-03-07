@@ -1,8 +1,20 @@
 # GeoDNS Changelog
 
-## 3.0.0 February 2018
+## 3.1.0 - in development
 
-(dev branch; still in testing)
+* NSID support
+* Support for DNS Cookies
+* dnsflagday cleanups
+
+## 3.0.2 December 2019
+
+* Better test errors when geoip2 files aren't found
+* Require Go 1.13 or later (just for build script for now)
+* Add geodns-logs to Docker image
+* Fix targeting tests (GeoIP data changed)
+* Update dependencies
+
+## 3.0.1 April 2019
 
 * Added Prometheus metrics support
 * Removed /monitor websocket interface
@@ -16,6 +28,7 @@
 * More/updated tests
 * Don't let the server ID be 127.0.0.1
 * Use 'dep' to manage dependencies
+* Remove built-in InfluxDB support from the log processing tool
 
 ## 2.7.0 February 13, 2017
 
